@@ -44,10 +44,10 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
+.top-menu {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 20px;
     margin-right: 20px;
 }
 

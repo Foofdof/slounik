@@ -11,3 +11,6 @@ def post_list(request):
 def post_detail(request, pk):
     post = get_object_or_404(Word, pk=pk)
     return render(request, 'TransSite/post_detail.html', {'post': post})
+
+def about(request):
+    return render(request, 'TransSite/about.html', {})
